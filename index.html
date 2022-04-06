@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <!--Fontes google-->
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="./js/menuResponsivo.js"></script>
+    <title>Ricardo Dias</title>
+</head>
+<body>
+  <header>
+          <nav class="navbar">
+              <ul class="topnav">
+                  <li><a href="#sectionOne">Inicio</a></li>
+                  <li><a href="#section2">Sobre mim</a></li>
+                  <li><a href="#section3">Habilidades</a></li>
+                  <li><a href="#section4">Projetos</a></li>
+                  <li class="icon"><!--Inclui o ícone do responsivo na lista-->
+                      <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a><!--Chama a função javascript no evento click do icon-->
+                  </li>
+              </ul>
+          </nav>
+  </header>
+  <section id="sectionOne">
+      <div class="perfil">
+              <img id="imgPerf" src="./img/RickPerfil.jpg">
+              <div class="textAprent">
+                  <h1>Ricardo Dias</h1>
+                  <p>DESENVOLVEDOR WEB / ESPECIALISTA EM TECNOLOGIA E INOVAÇÃO</p>
+                  <div class="redes">
+                      <a href="https://www.linkedin.com/in/ricardo-dias-6b03131a2/" target="_blank"><img class="icons" src="./img/icons8-linkedin.svg"/></a>
+                      <a href="https://github.com/ricardond" target="_blank"><img class="icons" src="./img/icons8-github.svg"/></a>
+                      <a href="https://www.instagram.com/ricardond_/" target="_blank"><img class="icons" src="./img/icons8-instagram.svg"/></a>
+                  </div>
+              </div>
+      </div>
+  </section>
+  <section id="section2" data-aos="fade-up" data-aos-delay="50">
+      <h1 data-anime="left">Sobre mim</h1>
+      <article data-anime="left">
+          <p>Apaixonado por computação e programação! Atualmente cursando Licenciatura em Computação.
+              atuo no mercado como freelancer, oferecendo soluções completas para sistemas 
+              web, mobile, desktop, design gráfico, e sistemas integrados.
+              Também tenho experiência com sala de aula. Minha especialidade é usar a tecnologia em conjunto com a educação, para mim as duas andam bem juntas.
+          </p>
+      </article>
+  </section>
+  <section id="section3" data-aos="fade-up" data-aos-delay="50">
+      <h1>Vou contar um pouco sobre o meu trabalho...</h1>
+      <h2>SOFT SKILLS</h2>
+      <div class="containerCards">
+        <!--Cards com icones de skills-->
+          <div class="divcards">
+              <h2>FRONT-END</h2>
+              <article>
+                  <img src="https://img.icons8.com/ios-filled/50/000000/html.png"/>
+                  <img src="https://img.icons8.com/ios-filled/50/000000/css.png"/>
+                  <img id="boots" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/000000/external-bootstrap-a-free-and-open-source-css-framework-logo-bold-tal-revivo.png"/>
+                  <img src="https://img.icons8.com/ios-filled/50/000000/js.png"/>
+              </article>
+          </div>
+          <div class="divcards">
+              <h2>BACK-END</h2>
+              <article>
+                  <img src="https://img.icons8.com/ios-filled/50/000000/sql.png"/>
+                  <img src="https://img.icons8.com/ios-filled/50/000000/mysql.png"/>
+                  <img src="https://img.icons8.com/ios-filled/50/000000/database.png"/>
+              </article>
+          </div>
+          <div class="divcards">
+              <h2>METODOLOGIA</h2>
+              <article>
+                  <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-scrum-agile-flaticons-lineal-color-flat-icons-4.png"/>
+                  <img src="./img/xp.svg"/>
+              </article>
+          </div>
+      </div>
+  </section>
+  <section id="section4" data-aos="fade-up" data-aos-delay="50">
+    <h1>Um bom programador não para de praticar! Veja alguns dos meus projetos feitos...</h1>
+    <div class="work-box">
+    <div class="work">
+  <!--───────────────card───────────────-->
+    <div class="card">
+        <img class="work-img" src="./img/barbearia.png">
+      <div class="work-content">Landing Page para barbearia</div></a>
+    </div>
+    <div class="card">
+        <img class="work-img" src="./img/sg.png">
+      <div class="work-content">Sistema de Gestão de imóveis</div></a>
+          </div>
+    <div class="card">
+        <img class="work-img" src="./img/noticias.png">
+      <div class="work-content">Front-End de um site de notícias</div></a>
+    </div>
+    <div class="card">
+        <img class="work-img" src="./img/emoji.png">
+      <div class="work-content">Projeto Emoji colorido</div></a>
+    </div> 
+    </div>
+    </div>
+  </section>
+  <footer>&copyRicardo Dias</footer>
+  <!--Link da biblioteca javascript de animação scroll-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
